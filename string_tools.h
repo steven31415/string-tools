@@ -4,6 +4,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool modulusCheck(char input[], int divisor);
+bool modulusCheck(char input[], int n, int divisor);
 
 #endif

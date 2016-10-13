@@ -1,8 +1,11 @@
 #include "string_tools.h"
 
 int main() {
-	char input[11] = "81763248752";
-	bool result = modulusCheck(input, 6);
+	
+	// EXAMPLE
+
+	char input[25] = "8168576319872394832874629";
+	bool result = modulusCheck(input, 25, 7);
 
 	printf("%s\n", result ? "TRUE" : "FALSE");
 }
